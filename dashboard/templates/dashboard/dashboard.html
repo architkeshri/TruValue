@@ -1,0 +1,18 @@
+{% extends 'dashboard/dashboardbase.html'%}
+{% load static %}
+{% block content %}
+    {% for brand in phone_brands %}
+
+        <div class="content-section">
+            <div class="media">
+                <img class="rounded-circle account-img" src="{{ brand.BrandLogo.url }}">
+                <!-- url :dashboard/BrandName-->
+                <h4><a href="{% url 'brandmodels' brand.BrandName %}">{{brand.BrandName}}</a></h4>
+
+            </div>
+
+
+        </div>
+
+    {% endfor%}
+{% endblock content%}

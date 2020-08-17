@@ -1,0 +1,20 @@
+{% extends 'dashboard/dashboardbase.html'%}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+   <form method="POST">
+                {% csrf_token %}
+            <fieldset class="form-group">
+            <legend class="border-bottom
+              mb-4">Enter Details</legend>
+                 {{form.media}}
+                {{ form|crispy }}
+
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">CALCULATE</button>
+            </div>
+   </form>
+
+
+{% endblock content%}

@@ -1,0 +1,28 @@
+{% extends 'dashboard/dashboardbase.html'%}
+{% load static %}
+{% block content %}
+    <h2>Select {{brand.BrandName}}'s Model </h2>
+
+    {% for model in brand.phonemodels_set.all %}
+        <div class="container content-section">
+            <div class="row media">
+                <div class="col"> <img class="square brand-model" src="{{ model.model_img.url }}"></div>
+                <div class="col">
+                    <h5>Model Name : <b>{{model.model_name}}</b></h5>
+                    <h5>Model Price :  <b>Rs. {{model.model_price}}</b></h5>
+                    <h5>Model Variant: <b>{{model.model_variant}}</b></h5>
+                </div>
+
+
+                <div class="col form-group">
+                    <a href="{% url 'phoneinfo' brand.BrandName model.model_name %}"><button class="btn btn-outline-info">OKAY</button></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    {%endfor%}
+
+
+{% endblock content%}
