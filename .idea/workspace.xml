@@ -14,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/TruValue/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+              <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -176,11 +176,6 @@
           <expand>
             <path>
               <item name="TruValue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TruValue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TruValue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TruValue" type="462c0819:PsiDirectoryNode" />
               <item name="TruValue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -603,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/TruValue/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
         </state>
       </provider>
     </entry>
