@@ -1,1 +1,1 @@
-web : gunicorn TruValue.wsgi
+web: gunicorn TruValue.wsgi
