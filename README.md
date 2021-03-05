@@ -1,1 +1,1 @@
-"#TruValue" 
+# TruValue 
